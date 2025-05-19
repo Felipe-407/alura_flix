@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   --branco-principal: #FFFFFF;
   --cinza-secundario: #C0C0C0;
@@ -20,15 +22,15 @@ body {
 }
 
 .principal{
-  background-imag url(*./imagem/background.png*);
+  background-image: url(*./imagem/background.png*);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .container {
-  heigth: 100vh;
+  height: 100vh;
   display: grid;
-  grid-template-colums: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
 .container_botao{
